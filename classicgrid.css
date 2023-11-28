@@ -1,0 +1,67 @@
+#wrapper2{
+    display: grid;
+    grid-template-rows: 100px auto 300px 100px;
+    grid-template-columns: 2fr 3fr;
+    grid-row-gap: 10px;
+    grid-column-gap: 20px;
+   grid-template-areas:
+   'hd hd'
+   'nv nv'
+   'as sc'
+   'ft ft';
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+header, nav, aside, section, footer {
+border: 1px black solid;
+}
+header, aside, section, footer {
+    text-align: center;
+    }
+header{
+    grid-area: hd;
+    background-color:aquamarine;
+    font-size: 54px;
+}
+nav{
+    grid-area: nv;
+    background-color: bisque;
+    display: flex;
+    justify-content: flex-end;
+}
+aside{
+    grid-area: as;
+    background-color: brown;
+    height: auto;
+    min-height: 100px;
+}
+section{
+    grid-area: sc;
+    background-color:tomato;
+}
+article{
+    grid-area: ar;
+    background-color: chartreuse;
+    height:auto;
+    min-height: 90px;
+    border: 1px gray solid;
+    margin: 5px;
+}
+footer{
+    grid-area: ft;
+    background-color: khaki;
+}
+nav ul li a{
+font-size: 24px;
+color:black;
+text-decoration: none;
+}
+nav ul li a:hover{
+color:blue;
+}
+nav ul li{
+    list-style:none;
+    margin:0.5em 1em 0.5em 1em;
+}
+nav ul{
+    display:flex;
+}
