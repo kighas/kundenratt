@@ -1,0 +1,30 @@
+#cardwrapper{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin: auto;
+    justify-content: center;
+}
+section{
+    border: 2px solid red;
+    width: 200px;
+    height: 200px;
+}
+#s1{
+    background-color: green;
+}
+#s2{
+background-image: url('../images/Johan-Andreasson_FF6464D5-21E1-44E4-8956-2A50350CD742.jpeg');
+}
+#s3{
+background-image: url('../images/parafras.jpg')  
+}
+#s4{
+background-image: url('../images/IMG_3251.PNG');
+}
+#s5{
+    background-color: brown;
+}
+#s6{
+    background-color: blue;
+}
