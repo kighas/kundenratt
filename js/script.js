@@ -1,5 +1,5 @@
 function sendMessage() {
-    const messageInput = document.getElementById('message_input');
+     const messageInput = document.getElementById('message_input');
     const chatMessage = document.getElementById('chat_messages');
 }
 
